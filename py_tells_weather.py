@@ -1,13 +1,6 @@
 # Import modules
-from tkinter import *
 import tkinter as tk
-from geopy.geocoders import Nominatim
-from tkinter import ttk,messagebox
-from timezonefinder import TimezoneFinder
-from datetime import datetime
 import requests
-import pytz
-
 
 # Define constants
 API_KEY = "your_api_key_here" # Replace with your own API key
@@ -16,7 +9,7 @@ WEATHER_API_URL = "http://api.weatherapi.com/v1/marine.json?key=" + API_KEY # Re
 # Create a root window
 root = tk.Tk()  # This creates a root window object
 root.title("Weather App")  # This sets the title of the window
-root.geometry("400x300")  # This sets the size of the window
+root.geometry("500x200")  # This sets the size of the window
 root.resizable(False, False)  # This prevents the window from being resized
 
 # Define global variables
