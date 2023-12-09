@@ -8,7 +8,7 @@ WEATHER_API_URL = "http://api.weatherapi.com/v1/marine.json?key=" + API_KEY # Re
 
 # Create a root window
 root = tk.Tk()  # This creates a root window object
-root.title("Weather App")  # This sets the title of the window
+root.title("Py_Tells_Weather")  # This sets the title of the window
 root.geometry("500x200")  # This sets the size of the window
 root.resizable(False, False)  # This prevents the window from being resized
 
@@ -80,7 +80,7 @@ def update_city():
 # Create widgets and buttons
 
 # Create a label for the title
-title_label = tk.Label(root, text="Weather App", font=("Arial", 20, "bold"))
+title_label = tk.Label(root, text="Py_Tells_Weather", font=("Arial", 20, "bold"))
 title_label.pack(pady=10)
 
 # Create a frame for the city input and selection
